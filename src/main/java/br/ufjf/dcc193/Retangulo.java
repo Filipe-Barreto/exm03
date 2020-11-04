@@ -18,9 +18,34 @@ public class Retangulo {
         this.largura = y;
         this.profundidade = z;
     }
-
+   
     public double calculaVolume() {
         this.volume = this.altura * this.largura * this.profundidade;
         return this.volume;
     }
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	public double getLargura() {
+		return largura;
+	}
+
+	public void setLargura(double largura) {
+		this.largura = largura;
+	}
+
+	public double getProfundidade() {
+		return profundidade;
+	}
+
+	public void setProfundidade(double profundidade) {
+		this.profundidade = profundidade;
+	}
+    
 }
